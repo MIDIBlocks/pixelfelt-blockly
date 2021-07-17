@@ -40,6 +40,7 @@ npm install
 npm start
 
 # 2b) Desktop mode (native desktop events)
+npm i robotjs
 npm run desktop
 
 # 3) Point your browser to http://localhost:8080

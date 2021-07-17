@@ -1,9 +1,9 @@
 {
-  "name": "pixelfelt-blockly",
+  "name": "sitemodder",
   "version": "2021.5.11-2",
-  "description": "A handsfree creative coding platform. Build apps, make art, create bots, & more",
+  "description": "A creative coding userscript manager",
   "productName": "Pixelfelt Blockly",
-  "author": "Oz Ramos <oz@pixelfelt.com>",
+  "author": "Oz <sitemodder@gmail.com>",
   "main": "dist/index.html",
   "scripts": {
     "start": "quasar dev",
@@ -28,7 +28,6 @@
     "monaco-editor-webpack-plugin": "^1.9.0",
     "mousetrap": "^1.6.5",
     "quasar": "^1.0.0",
-    "robotjs": "^0.6.0",
     "stats.js": "^0.17.0",
     "store": "^2.0.12",
     "uuid": "^8.3.0",
