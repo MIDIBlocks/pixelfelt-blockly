@@ -55,7 +55,7 @@ export default {
   methods: {
     autosave () {
       window.parent?.postMessage({
-        action: 'pixelfelt.editor.autosave',
+        action: 'sitemodder.editor.autosave',
         code: this.currentEditor.code
       }, '*')
     },
@@ -73,7 +73,7 @@ export default {
      */
     runCode () {
       window.parent?.postMessage({
-        action: 'pixelfelt.editor.runCode',
+        action: 'sitemodder.editor.runCode',
         code: this.currentEditor.code
       }, '*')
     },
@@ -82,7 +82,7 @@ export default {
      * Tell parent window to show debugger in Picture in Picture
      */
     showDebugger () {
-      window.parent?.postMessage({action: 'pixelfelt.showDebugger'}, '*')
+      window.parent?.postMessage({action: 'sitemodder.showDebugger'}, '*')
     },
 
     /**

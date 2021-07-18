@@ -157,7 +157,7 @@ export default {
 
     // Let parent frame know that everything is loaded
     this.$nextTick(() => {
-      window.parent?.postMessage({action: 'pixelfelt.ready'}, '*')
+      window.parent?.postMessage({action: 'sitemodder.ready'}, '*')
     })
   },
 

@@ -2,7 +2,7 @@
   "name": "sitemodder",
   "version": "2021.5.11-2",
   "description": "A creative coding userscript manager",
-  "productName": "Pixelfelt Blockly",
+  "productName": "Site Modder",
   "author": "Oz <sitemodder@gmail.com>",
   "main": "dist/index.html",
   "scripts": {

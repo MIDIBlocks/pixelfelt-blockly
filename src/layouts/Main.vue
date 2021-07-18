@@ -124,7 +124,7 @@ export default {
   
   data () {
     return {
-      // Whether the Pixelfelt iFrame is maximized or not
+      // Whether the Sitemodder iFrame is maximized or not
       isMinimized: true,
       
       mainNavPanel: {
@@ -228,11 +228,11 @@ export default {
      * Resize iframe
      */
     maximizeIframe () {
-      window.parent?.postMessage({action: 'pixelfelt.maximize'}, '*')
+      window.parent?.postMessage({action: 'sitemodder.maximize'}, '*')
       this.isMinimized = false
     },
     minimizeIframe () {
-      window.parent?.postMessage({action: 'pixelfelt.minimize'}, '*')
+      window.parent?.postMessage({action: 'sitemodder.minimize'}, '*')
       this.isMinimized = true
     }
   }
